@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression"  parallel="classes"
+	thread-count="1">
+
+	<test name="chrome_test">
+		<!-- <parameter name="browser" value="Chrome" /> -->
+		<classes>
+			<class name="com.test.mo.automation.login.logintest" />
+		</classes>
+	</test>
+
+	<!-- <test name="opera_test">
+		<parameter name="browser" value="opera" />
+		<classes>
+			<class name="com.test.mo.automation." />
+		</classes>
+	</test> -->
+
+
+
+
+</suite> 

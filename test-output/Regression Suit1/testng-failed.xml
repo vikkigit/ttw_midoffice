@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suit1]" parallel="classes">
+  <test name="chrome_test(failed)" parallel="classes">
+    <classes>
+      <class name="com.test.mo.automation.login.logintest">
+        <methods>
+          <include name="login"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.test.mo.automation.login.logintest -->
+    </classes>
+  </test> <!-- chrome_test(failed) -->
+</suite> <!-- Failed suite [Regression Suit1] -->
